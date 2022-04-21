@@ -8,32 +8,22 @@ background: rgb(201, 201, 201);
     margin: 0 auto;
 }
 
-.scroll {
-    height: 300px;
-    width: 40px;
-    overflow-y: scroll;
-    display: inline-block;
-  }
-  .scroll .inner {
-    height: 300%;
-    width: 100%;
-    content: '.';
-  }
-  .scroll--simple::-webkit-scrollbar {
+
+  ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
   }
-  .scroll--simple::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.1);
   }
-  .scroll--simple::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.2);
   }
-  .scroll--simple::-webkit-scrollbar-thumb:hover {
+  ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.4);
   }
-  .scroll--simple::-webkit-scrollbar-thumb:active {
+  ::-webkit-scrollbar-thumb:active {
     background: rgb(97, 0, 0);
   }
