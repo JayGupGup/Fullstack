@@ -35,5 +35,5 @@ background: rgb(201, 201, 201);
     background: rgba(0, 0, 0, 0.4);
   }
   .scroll--simple::-webkit-scrollbar-thumb:active {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(40, 40, 40, 0.9);
   }
